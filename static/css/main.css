@@ -1,3 +1,40 @@
-body{
-  background: black;
+/* Open Sans Google Font */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
+
+
+/* Montserrat Google Font */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+
+button {
+  background-color: #1180f1;
+  border: none;
+  font-size: 15px;
+}
+body {
+  background-color: #ffffff;
+}
+
+section {
+  overflow-x:hidden;
+}
+
+.container {
+  margin: 0px auto;
+
+}
+
+.space-evenly {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navigation {
+  display: flex;
+  align-items: center;
+  background-color: red;
 }
