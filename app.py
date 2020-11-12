@@ -13,6 +13,10 @@ class Todo(db.Model):
 
 	def __repr__(self):
 		return '<Task %r>' % self.id
+		
+@app.route('/mainpage', methods=['GET'])
+def main():
+	return render_template('mainpage.html')
 
 @app.route('/', methods=['POST', 'GET'])
 def index():
