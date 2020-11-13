@@ -4,16 +4,17 @@
 
 /* Montserrat Google Font */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-* {
-  font-family: 'Open Sans';
-  font-weight: 600;
+a {
+  color: #3b4754;
+  text-decoration: none;
 }
 
 button {
   background-color: #1180f1;
   border: none;
   font-size: 15px;
+  color: white;
+  text-align: center;
 }
 
 img {
@@ -23,10 +24,8 @@ img {
 
 body {
   background-color: #ffffff;
-}
-
-section {
-  overflow-x:hidden;
+  font-family: 'Open Sans';
+  font-weight: 600;
 }
 
 .container {
@@ -39,8 +38,12 @@ section {
   justify-content: space-between;
 }
 
-#navigation {
+#rightSide {
   display: flex;
-  align-items: center;
-  background-color: red;
+  align-content: right;
+}
+
+#navbar {
+  display: flex;
+  align-content: left;
 }

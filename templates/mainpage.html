@@ -6,19 +6,25 @@
 
 {% block body %}
 <div id="navbar" class="space-evenly">
+  <span>
   <a href="/">Forum</a>
   <a href="/aboutus">About Us</a>
   <a href="/faq">FAQ</a>
-  <span>
+  </span>
+  <span id="rightSide">
     <button id="login">Login</button>
   </span>
 </div>
 
 <div class="content">
+  <span>
   <h1>Challenge what you know.</h1>
   <div id="graytext">A web app that matches you with climate change <br>
   experts to answer your questions.</div>
   <button>Create a FREE account</button>
-  <img src="../static/logo.png"></img>
+  </span>
+  <span>
+  <img src="../static/logo.png" width=463 height=339></img>
+  </span>
 </div>
 {% endblock %}
