@@ -5,10 +5,16 @@
 {% endblock %}
 
 {% block body %}
-<div class="navbar">
+<div id="navbar" class="space-evenly">
+  <span>
   <a href="/">Forum</a>
-  <a href="">About Us</a>
-  <a href="">FAQ</a>
+  <a href="/aboutus">About Us</a>
+  <a href="/faq">FAQ</a>
+  </span>
+  <img src="../static/logo.png" width=463 height=339></img>
+  <span id="rightSide">
+    <button id="login">Login</button>
+  </span>
 </div>
 
 <div class="content">
