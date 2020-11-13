@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Climate Match</title>
+{% endblock %}
+
+{% block body %}
+<div class="answer">
+  <h1>Answer the question</h1>
+
+  <form action="/answer/{{task.id}}" method="POST">
+    <input type="text" name="answer" id="answer" value="{{task.answer}}">
+    <input type="submit" value="Answer">
+  </form>
+</div>
+{% endblock %}
